@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->text('dispositivo');
             $table->text('imei');
-            $table->dateTime('tiempo');
+            $table->text('tiempo');
             $table->string('placa');
             $table->string('version');
             $table->text('latitud');
