@@ -1,0 +1,21 @@
+.paginate-links {
+    width: 100%;
+    list-style: none;
+}
+
+.paginate-links li {
+    display: inline;
+    background-color: #E43A48;
+    color: white;
+    padding: 0.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.paginate-result {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
