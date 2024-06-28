@@ -14,7 +14,6 @@ class MapsController extends Controller
         while ($linea = fgets($arc)) {
             $array[] = $linea;
         }
-        
         fclose($arc);
         return $array;
     }
