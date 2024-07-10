@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\puntos_gps;
 
 class MapsController extends Controller
-{//++++++++++prueba
+{//++++++++++prueba+//++++++++++++++++****
     public function buildArray()
     {
         $arc = fopen(base_path('puntos_gps.txt'), "r");
