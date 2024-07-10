@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\puntos_gps;
 
 class MapsController extends Controller
-{
+{//**********++---++******************* */
 
     public function buildArray()
     {
