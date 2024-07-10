@@ -7,6 +7,7 @@ use App\Models\puntos_gps;
 
 class MapsController extends Controller
 {//++++++++++prueba+//++++++++++++++++****
+    //*--***************--*-*-
     public function buildArray()
     {
         $arc = fopen(base_path('puntos_gps.txt'), "r");
